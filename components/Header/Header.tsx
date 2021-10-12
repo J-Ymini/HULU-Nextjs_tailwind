@@ -9,7 +9,7 @@ import {
   UserIcon,
 } from "@heroicons/react/outline";
 
-import HeaderItem from "./HeaderItem";
+import HeaderItem from "../HeaderItem/HeaderItem";
 
 import Image from "next/image";
 
