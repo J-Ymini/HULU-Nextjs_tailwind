@@ -1,5 +1,8 @@
 import type { NextPage } from "next";
+
 import Head from "next/head";
+
+import Header from "../components/Header";
 
 const Home: NextPage = () => {
   return (
@@ -9,10 +12,7 @@ const Home: NextPage = () => {
         <link href="/favicon.ico" />
       </Head>
 
-      <h1>Lets build Hulu 2.0</h1>
-
-      {/* Header */}
-
+      <Header />
       {/* Nav */}
 
       {/* Result */}
