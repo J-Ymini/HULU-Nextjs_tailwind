@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import React from "react";
-import requests from "../../utils/requests";
+import { requests } from "../../utils/requests";
 
 export default function Nav(): JSX.Element {
   const router = useRouter();
