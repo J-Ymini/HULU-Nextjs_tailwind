@@ -1,14 +1,15 @@
 import React from "react";
 
 import Thumbnail from "../Thumbnail/Thumbnail";
+import FlipMove from "react-flip-move";
 
 export default function Results({ results }: ResultsProps): JSX.Element {
   return (
-    <div className="px-5 my-10 sm:grid md:grid-cols-2 xl:grid-cols-3  3xl:flex flex-wrap justify-center">
+    <FlipMove className="px-5 my-10 sm:grid md:grid-cols-2 xl:grid-cols-3  3xl:flex flex-wrap justify-center">
       {results.map((result: ThumbnailProps) => (
         <Thumbnail key={result.id} result={result} />
       ))}
-    </div>
+    </FlipMove>
   );
 }
 
