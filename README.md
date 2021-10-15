@@ -12,7 +12,7 @@
 
 ### 시행 목적
 
-- Next.js와 Tailwind.css, tsx 사용법을 익히기 위해, 간단한 클론 프로젝트를 해보았습니다.
+- Next.js와 Tailwind.css, tsx 사용법을 익히기 위해, 간단한 클론을 해보았습니다.
 
 ---
 
